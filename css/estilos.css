@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+   
+}
+
+@font-face {
+    font-family: 'Bree';
+    src: url('../assets/fonts/BreeSerif-Regular.woff');
+}
+
+.header-container{
+    font-family: 'Bree';
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+h4{
+    padding: 20px 0px;
+   
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+   
+}
+
+#learn{
+    background-color: darkgray;
+   
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+.contenido{
+    font-family: 'Bree';
+    display: flex;
+    margin: 0px 0px;
+}
+
+.contenido> #cuadro1>img, #cuadro2>img, #cuadro3>img {
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+#cuadro1>img{   
+    max-width: 300px;
+}
+
+#cuadro2>img{   
+    max-width: 260px;
+}
+
+#cuadro3>img{   
+    max-width: 258px;
+}
+
+h3{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+.parrafo{
+    padding: 45px;
+    text-align: justify;
+}
+
+@media (min-width:280px) and (max-width: 900px)
+{
+    main{
+        flex-direction: column;
+    }
+} 
+
